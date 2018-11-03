@@ -42,9 +42,12 @@ http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 
 The validation set of chosen as 500 of the bird samples, training as 4500 and the test set had 1000 instances.
 
-<p align="center">
-  <img src="https://drive.google.com/open?id=1hrY9jmBuBpoDOp37FaNEHdngOqTZRUqs" width="350" title="hover text">
-  <img src="https://drive.google.com/open?id=1hrY9jmBuBpoDOp37FaNEHdngOqTZRUqs" width="350" alt="accessibility text">
-</p>
-![alt text](https://drive.google.com/open?id=1hrY9jmBuBpoDOp37FaNEHdngOqTZRUqs)
+# Results
+
+y_pred = model1.predict_classes(X_test) 1000/1000 [============================>.] - ETA: 0s
+Number of true predictions:  765 
+Number of false predictions: 235
+
+Clearly, the CNN struggles to predic tteh hues of bluw and green. To put it simply the vibrant and bright colours. However, it does a more than a decentjob in colouring subtle colors and darker shades. 
+
 
