@@ -1,5 +1,4 @@
-# Deep-CNNs-for-Image-Colorization	# homework6-Arpit-Sharma-USC
- homework6-Arpit-Sharma-USC created by GitHub Classroom
+# Deep-CNNs-for-Image-Colorization
 A convolutional neural network for image colorization which turns a grayscale image to a colored image. By converting an image to grayscale, we loose color information, so converting a grayscale image back to a colored version is not an easy job. I will use the CIFAR-10 dataset.	
  # Dataset	
 http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz	
