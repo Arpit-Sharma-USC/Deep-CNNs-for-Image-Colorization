@@ -41,3 +41,7 @@ http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
         •	After receiving the 1024 output counts, I built a compilation for the model with loss='categorical_crossentropy'.
 
 The validation set of chosen as 500 of the bird samples, training as 4500 and the test set had 1000 instances.
+
+![Optional Text](../master/Results_After_6_epochs.png)
+
+
