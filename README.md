@@ -1,8 +1,13 @@
 # Deep-CNNs-for-Image-Colorization
+
 A convolutional neural network for image colorization which turns a grayscale image to a colored image. By converting an image to grayscale, we loose color information, so converting a grayscale image back to a colored version is not an easy job. I will use the CIFAR-10 dataset.	
+
  # Dataset	
+ 
 http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz	
+
  # Procedure	
+ 
  •	Data Filtering for birds:	
        o  To begin with I used the cifar10 load_data method. And then picked those whose among the whole data whose indices matched with that      of birds.	
   	
@@ -32,9 +37,14 @@ http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
         •	After this, I obtained a 2D grid in the network of the shape (1024, 4) (which matches the expected output shape). I then decided to add another layer, namely the Activation layer with softmax which helped to choose the highest value out of 4 inputs for each of the 1024 pixels. 	
       	
         •	After receiving the 1024 output counts, I built a compilation for the model with loss='categorical_crossentropy'.	
+ 
  The validation set of chosen as 500 of the bird samples, training as 4500 and the test set had 1000 instances.	
+ 
  # Results	
+ 
  y_pred = model1.predict_classes(X_test) 1000/1000 [============================>.] - ETA: 0s	
+
 Number of true predictions:  765 	
 Number of false predictions: 235	
- Clearly, the CNN struggles to predic tteh hues of bluw and green. To put it simply the vibrant and bright colours. However, it does a more than a decentjob in colouring subtle colors and darker shades. 
+ 
+ Clearly, the CNN struggles to predic tteh hues of blue and green. To put it simply the vibrant and bright colours. However, it does a more than a decentjob in colouring subtle colors and darker shades. 
