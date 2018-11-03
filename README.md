@@ -42,6 +42,7 @@ http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 
 The validation set of chosen as 500 of the bird samples, training as 4500 and the test set had 1000 instances.
 
-![Optional Text](../master/Results_After_6_epochs.png)
+![alt text](https://raw.githubusercontent.com/Arpit_Sharma-USC/Deep-CNNs-for-Image-Colorization/master/Results_After_6_epochs.png)
+
 ![Alt text](../master/Results_After_6_epochs.png?raw=true "Title")
 
