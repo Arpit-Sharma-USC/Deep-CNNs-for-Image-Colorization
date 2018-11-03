@@ -42,5 +42,9 @@ http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 
 The validation set of chosen as 500 of the bird samples, training as 4500 and the test set had 1000 instances.
 
+<p align="center">
+  <img src="https://drive.google.com/open?id=1hrY9jmBuBpoDOp37FaNEHdngOqTZRUqs" width="350" title="hover text">
+  <img src="https://drive.google.com/open?id=1hrY9jmBuBpoDOp37FaNEHdngOqTZRUqs" width="350" alt="accessibility text">
+</p>
 ![alt text](https://drive.google.com/open?id=1hrY9jmBuBpoDOp37FaNEHdngOqTZRUqs)
 
